@@ -1,0 +1,14 @@
+# name of workflow
+name: First workflow
+
+# define the event that triggers this workflow to run
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "I just want a Rollie"
+      - name: Print goodbye
+        run: echo "A Richard Mille better though"
